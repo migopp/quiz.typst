@@ -31,8 +31,37 @@
 
 		*Signature:*
 	]
-	pagebreak()
 }
+
+#let ptable(questions: (1)) = {
+	align(center)[
+		#table(
+			// Generate `questions + 1` boxes
+			// One extra for the total score
+			columns: range(1, questions + 2).map(_ => auto),
+			align: horizon,
+			[#h(7.5%) #v(4%)],
+			[#h(7.5%) #v(4%)],
+			[#h(7.5%) #v(4%)],
+			[#h(7.5%) #v(4%)],
+			[#h(7.5%) #v(4%)],
+		)
+	]
+}
+/*
+#let ptable(questions: (1)) = {
+	align(center)[
+		#table(
+			columns: (auto, auto, auto),
+			align: horizon,
+			table.header[*1*][*2*][*T*],
+			[#h(7.5%) #v(4%)],
+			[#h(7.5%) #v(4%)],
+			[#h(7.5%) #v(4%)],
+		)
+	]
+}
+*/
 
 // Outer label for a question
 #let question(points: 0, body) = {
