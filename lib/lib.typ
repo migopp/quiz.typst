@@ -31,6 +31,7 @@
 
 		*Signature:*
 	]
+	pagebreak()
 }
 
 // Outer label for a question
@@ -46,11 +47,12 @@
 
 // Part of a question
 // e.g., a, b, c, ...
-#let part(points: 0, body) = {
+#let part(points: 0, space: 0%, body) = {
 	if points == 1 [
 		(#points point)		
 	] else [
 		(#points points)		
 	]
   	body
+	v(space)
 }

@@ -23,7 +23,6 @@
 
 // --- preamble ---
 #preamble(class: "CS439", quiz_no: 1, time_limit: 50)
-#pagebreak()
 
 // --- body ---
 // --- q1 ---
@@ -38,20 +37,17 @@
 	}
 	```
 
-	1. #part(points: 1)[
+	1. #part(points: 1, space: 10%)[
 		`Java` is a popular language. Why might it be good?
 	]
 
-	#v(10%)
-
-	2. #part(points: 8)[
+	2. #part(points: 8, space: 0%)[
 		Why might it be bad?
 	]
 ]
-
 #pagebreak()
 
 // --- q2 ---
 2. #question(points: 1)[
-	What is the meaning of life?
+	What's up with ostriches?
 ]
