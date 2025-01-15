@@ -1,4 +1,4 @@
-#import "lib.typ": *
+#import "lib/lib.typ": *
 
 // --- config ---
 #set par(justify: true)
