@@ -14,8 +14,8 @@
 	#block(
 		fill: luma(250),
 		inset: (left: 3%, y: 10%),
-    	radius: (right: 5pt),
-    	stroke: (left: 2pt+luma(100)),
+		radius: (right: 5pt),
+		stroke: (left: 2pt+luma(100)),
 		q
 	)
 ]

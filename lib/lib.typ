@@ -14,7 +14,6 @@
 			*Time: #time_limit Minutes*
         ]
     )
-
 	[
 		By writing my name on this sheet, I certify that all the work on this quiz is mine alone, and that I will abide by the honor code as printed.
 	
